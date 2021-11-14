@@ -14,6 +14,7 @@ After running a query to remove any duplicate employees that may have been liste
     - 57,668 are senior level staff members (29,414 Senior Engineers & 28,254 Senior Staff members)
     - 4,504 leaders are of retirement age (2 Managers and 4,502 Technique Leaders) 
 
+![retiring_titles](https://user-images.githubusercontent.com/90982811/141699542-988dea62-23d1-490b-a75a-3da8afccd21b.png)
 
 ### Employees Eligible for the Mentorship Program
 
@@ -29,8 +30,10 @@ An additional CSV (mentor_department.csv) is provided in the Data folder that li
 
 Here is the breakdown of mentors by title:
 
+![mentor_titles](https://user-images.githubusercontent.com/90982811/141699551-7c689d89-f5ab-4b7b-a5c7-2e6e38065603.png)
 
 And here is the breakdown of mentors by department:
 
+![mentor_dept_totals](https://user-images.githubusercontent.com/90982811/141699556-082eceb0-c5fe-41f9-94f0-8c1edf7ccb50.png)
 
 Pewlett Hackard has many shoes to fill in the upcoming silver tsunami but with adequate planning with the aid of this data analysis, a plan can be put into place to hire and train the upcoming workforce.
