@@ -55,3 +55,40 @@ ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibility;
 
+-- Create a table with the count of mentors by title, Additional Query for Deliverable 3
+SELECT COUNT(me.emp_no), me.title
+INTO mentor_titles
+FROM mentorship_eligibility as me
+GROUP BY me.title
+ORDER BY me.count DESC;
+
+SELECT * FROM mentor_titles;
+
+-- Create table with the mentors by title and department, Additional Query for Deliverable 3
+SELECT DISTINCT ON (me.emp_no) me.emp_no, 
+	me.first_name, 
+	me.last_name,
+	me.title,
+	de.dept_no,
+	d.dept_name
+INTO mentor_department
+FROM mentorship_eligibility as me
+	INNER JOIN dept_emp as de
+		ON me.emp_no = de.emp_no
+	INNER JOIN departments as d
+		ON de.dept_no = d.dept_no
+ORDER BY me.emp_no;
+
+SELECT * FROM mentor_department;
+
+-- Create a table with the count of mentors by department, Additional Query for Deliverable 3
+SELECT COUNT(md.emp_no), md.dept_name
+INTO mentor_dept_totals
+FROM mentor_department as md
+GROUP BY md.dept_name
+ORDER BY md.count DESC;
+
+SELECT * FROM mentor_dept_totals;
+
+
+
