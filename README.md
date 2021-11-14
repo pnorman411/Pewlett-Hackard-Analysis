@@ -28,12 +28,12 @@ After running a query to remove any duplicate employees that may have been liste
 
 An additional CSV (mentor_department.csv) is provided in the Data folder that lists each potential mentor and their department, so executive leadership can work with management in each area regarding the mentor program.
 
-Here is the breakdown of mentors by title:
+The breakdown of mentors by title:
 
 ![mentor_titles](https://user-images.githubusercontent.com/90982811/141699551-7c689d89-f5ab-4b7b-a5c7-2e6e38065603.png)
 
-And here is the breakdown of mentors by department:
+The breakdown of mentors by department:
 
 ![mentor_dept_totals](https://user-images.githubusercontent.com/90982811/141699556-082eceb0-c5fe-41f9-94f0-8c1edf7ccb50.png)
 
-Pewlett Hackard has many shoes to fill in the upcoming silver tsunami but with adequate planning with the aid of this data analysis, a plan can be put into place to hire and train the upcoming workforce.
+Pewlett Hackard has many shoes to fill in the upcoming silver tsunami but with adequate planning by the aid of this data analysis, the groundwork can be put into place to hire and train the upcoming workforce.
